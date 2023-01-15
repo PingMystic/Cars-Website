@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Cars</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Start Header -->
+      <header>
+        <div class="container">
+          <div class="left-sec">
+            <div class="logo"><a href="#">Logo</a></div>
+            <div class="nav-menu">
+              <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Catalog</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Vendor</a></li>
+                <li><a href="#">Pages</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="mobile">
+            <div class="nav-menu">
+              <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Catalog</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Vendor</a></li>
+                <li><a href="#">Pages</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="register-sec">
+            <div class="login">
+              <i class="fa-solid fa-user"></i>
+              <a>Sign in</a>
+            </div>
+            <i class="fa-solid fa-bars bars"></i>
+            <button>
+              <a href="#"><i class="fa-solid fa-plus"></i> Add car</a>
+            </button>
+          </div>
+        </div>
+      </header>
+      <!-- End Header -->
+      <!-- Start Banner -->
+      <div class="banner">
+        <div class="container">
+          <div class="content">
+            <div class="text">
+              <h3>Easy way to find the right car</h3>
+              <p>
+                Finder is a leading digital marketplace for the automotive
+                industry that connects car shoppers with sellers.
+              </p>
+            </div>
+            <div class="image">
+              <img src="images/hero-img-768x438.png" alt="" />
+            </div>
+          </div>
+          <!-- Start Forms Bar -->
+          <div class="forms-bar">
+            <div class="bar-cont">
+              <form class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Keywords" />
+              </form>
+              <div class="row">
+                <ul class="first-ul">
+                  <li>
+                    <a><i class="fa-solid fa-list"></i>Make</a>
+                  </li>
+                  <li>
+                    <a><i class="fa-solid fa-list"></i>Model</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <ul>
+                  <li>
+                    <a><i class="fa-solid fa-car-side"></i>Body Type</a>
+                  </li>
+                  <li>
+                    <form class="location">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <input type="text" placeholder="Location" />
+                    </form>
+                  </li>
+                </ul>
+              </div>
+              <div class="bar-btn">
+                <button><a href="#">Search</a></button>
+              </div>
+            </div>
+          </div>
+          <!-- End Forms Bar -->
+        </div>
+      </div>
+      <!-- End Banner -->
+      <!-- Start Types -->
+      <div class="types">
+        <div class="container">
+          <h3>Popular car body types</h3>
+          <div class="content">
+            <div class="type">
+              <img src="images/sedan.svg" alt="" />
+              <span>Sedan</span>
+            </div>
+            <div class="type">
+              <img src="images/suv.svg" alt="" />
+              <span>SUV</span>
+            </div>
+            <div class="type">
+              <img src="images/wagon.svg" alt="" />
+              <span>Wagon</span>
+            </div>
+            <div class="type">
+              <img src="images/crossover.svg" alt="" />
+              <span>Crossover</span>
+            </div>
+            <div class="type">
+              <img src="images/coupe.svg" alt="" />
+              <span>Coupe</span>
+            </div>
+            <div class="type">
+              <img src="images/pickup.svg" alt="" />
+              <span>Pickup</span>
+            </div>
+            <div class="type">
+              <img src="images/sport.svg" alt="" />
+              <span>Sport Coupe</span>
+            </div>
+            <div class="type">
+              <img src="images/compact.svg" alt="" />
+              <span>Compact</span>
+            </div>
+            <div class="type">
+              <img src="images/convertible.svg" alt="" />
+              <span>Convertible</span>
+            </div>
+            <div class="type">
+              <img src="images/mpv.svg" alt="" />
+              <span>Family MPV</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Types -->
+      <!-- Start Offers -->
+      <div class="offers">
+        <div class="container">
+          <div class="title">
+            <h3>Top offers</h3>
+            <a href="#"
+              >View All Offers <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <div class="offer">
+                <div class="img">
+                  <div class="properties">
+                    <button class="fav">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <div class="status">
+                      <span class="Certified">Certified</span>
+                      <span class="new blue">New</span>
+                    </div>
+                  </div>
+                  <a href="#"
+                    ><img src="images/offers-01.jpeg" alt="offer-1" />
+                    <img src="images/offers-01.jpeg" alt="offer-1" />
+                    <img src="images/offers-01.jpeg" alt="offer-1" />
+                  </a>
+                  <div class="slider-icons">
+                    <button class="left">
+                      <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <button class="right">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="offer-body">
+                  <div class="info">
+                    <span>2019</span>
+                    <h4>Mercedes Benz Convertible Coupe</h4>
+                    <span class="price">$25,800</span>
+                    <div class="location">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <a href="#"> New York, NY, USA</a>
+                    </div>
+                  </div>
+                  <div class="features">
+                    <div class="feature">
+                      <i class="fa-solid fa-gears"></i>
+                      <span>Automatic</span>
+                    </div>
+                    <div class="feature">
+                      <i class="fa-solid fa-gas-pump"></i>
+                      <span>Gasoline</span>
+                    </div>
+                    <div class="feature">
+                      <i class="fa-solid fa-recycle"></i>
+                      <span>28K mi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="offer">
+                <div class="img">
+                  <div class="properties">
+                    <button class="fav">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <div class="status">
+                      <span class="blue">Used</span>
+                    </div>
+                  </div>
+                  <a href="#"
+                    ><img src="images/offers-02.jpeg" alt="offer-1" />
+                    <img src="images/offers-02.jpeg" alt="offer-1" />
+                    <img src="images/offers-02.jpeg" alt="offer-1"
+                  /></a>
+                  <div class="slider-icons">
+                    <button class="left">
+                      <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <button class="right">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="offer-body">
+                  <div class="info">
+                    <span>2019</span>
+                    <h4>Mercedes Benz Convertible Coupe</h4>
+                    <span class="price">$25,800</span>
+                    <div class="location">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <a href="#"> New York, NY, USA</a>
+                    </div>
+                  </div>
+                  <div class="features">
+                    <div class="feature">
+                      <i class="fa-solid fa-gears"></i>
+                      <span>Automatic</span>
+                    </div>
+                    <div class="feature">
+                      <i class="fa-solid fa-gas-pump"></i>
+                      <span>Gasoline</span>
+                    </div>
+                    <div class="feature">
+                      <i class="fa-solid fa-recycle"></i>
+                      <span>28K mi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="offer">
+                <div class="img">
+                  <div class="properties">
+                    <button class="fav">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <div class="status">
+                      <span class="blue">Used</span>
+                    </div>
+                  </div>
+                  <a href="#"
+                    ><img src="images/offers-03.jpeg" alt="offer-1"
+                  /></a>
+                  <div class="slider-icons">
+                    <button class="left">
+                      <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <button class="right">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="offer-body">
+                  <div class="info">
+                    <span>2019</span>
+                    <h4>Mercedes Benz Convertible Coupe</h4>
+                    <span class="price">$25,800</span>
+                    <div class="location">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <a href="#"> New York, NY, USA</a>
+                    </div>
+                  </div>
+                  <div class="features">
+                    <div class="feature">
+                      <i class="fa-solid fa-gears"></i>
+                      <span>Automatic</span>
+                    </div>
+                    <div class="feature">
+                      <i class="fa-solid fa-gas-pump"></i>
+                      <span>Gasoline</span>
+                    </div>
+                    <div class="feature">
+                      <i class="fa-solid fa-recycle"></i>
+                      <span>28K mi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Offers -->
+      <!-- Start Sponsers -->
+      <div class="sponsers">
+        <div class="container">
+          <img src="images/opel.svg" alt="" />
+          <img src="images/audi.svg" alt="" />
+          <img src="images/mercedes.svg" alt="" />
+          <img src="images/toyota.svg" alt="" />
+          <img src="images/mazda.svg" alt="" />
+          <img src="images/nissan.svg" alt="" />
+          <img src="images/hyundai.svg" alt="" />
+          <img src="images/lexus.svg" alt="" />
+          <img src="images/honda.svg" alt="" />
+          <img src="images/renault.svg" alt="" />
+          <img src="images/infiniti.svg" alt="" />
+          <img src="images/mitsubishi.svg" alt="" />
+        </div>
+      </div>
+      <!-- End Sponsers -->
+      <!-- Start About -->
+      <div class="about">
+        <div class="container">
+          <div class="title">
+            <h3>What sets Finder apart?</h3>
+            <a href="#"
+              >How to sell cars on Finder <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <div class="list">
+                <i class="fa-solid fa-file-lines"></i>
+                <div class="text">
+                  <h4>Over 1 Million Listings</h4>
+                  <p>
+                    That’s more than you’ll find on any other major online
+                    automotive marketplace in the USA.
+                  </p>
+                </div>
+              </div>
+              <div class="list">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="text">
+                  <h4>Personalized Search</h4>
+                  <p>
+                    Our powerful search makes it easy to personalize your
+                    results so you only see the cars and features you care
+                    about.
+                  </p>
+                </div>
+              </div>
+              <div class="list">
+                <i class="fa-solid fa-gear"></i>
+                <div class="text">
+                  <h4>Non-Stop Innovation</h4>
+                  <p>
+                    Our team is constantly developing new features that make the
+                    process of buying and selling a car simpler.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <img src="images/car.svg" alt="" />
+              <img src="images/road-line.svg" alt="" />
+            </div>
+            <div class="column">
+              <div class="list">
+                <i class="fa-solid fa-circle-info"></i>
+                <div class="text">
+                  <h4>Valuable Insights</h4>
+                  <p>
+                    We provide free access to key info like dealer reviews,
+                    market value, price drops.
+                  </p>
+                </div>
+              </div>
+              <div class="list">
+                <i class="fa-solid fa-user-group"></i>
+                <div class="text">
+                  <h4>Consumer-First Mentality</h4>
+                  <p>
+                    We focus on building the most transparent, trustworthy
+                    experience for our users, and we’ve proven that works for
+                    dealers, too.
+                  </p>
+                </div>
+              </div>
+              <div class="list">
+                <i class="fa-solid fa-calculator"></i>
+                <div class="text">
+                  <h4>Online Car Appraisal</h4>
+                  <p>
+                    Specify the parameters of your car to form its market value
+                    on the basis of similar cars on Finder.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About -->
+      <!-- Start Latest -->
+      <div class="latest">
+        <div class="container">
+          <div class="title">
+            <h4>Latest Cars</h4>
+            <div class="title-status">
+              <button class="new active">New</button>
+              <button class="used">Used</button>
+              <a href="#">View All <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="cars">
+            <div class="car">
+              <div class="img">
+                <div class="properties">
+                  <button class="fav">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <div class="status">
+                    <span class="new blue">New</span>
+                  </div>
+                </div>
+                <a href="#"
+                  ><img src="images/latest-01.jpg" alt="offer-1" />
+                </a>
+              </div>
+              <div class="offer-body">
+                <div class="info">
+                  <span>2019</span>
+                  <h4>Mercedes Benz Convertible Coupe</h4>
+                  <span class="price">$25,800</span>
+                  <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="#"> New York, NY, USA</a>
+                  </div>
+                </div>
+                <div class="features">
+                  <div class="feature">
+                    <i class="fa-solid fa-gears"></i>
+                    <span>Automatic</span>
+                  </div>
+                  <div class="feature">
+                    <i class="fa-solid fa-gas-pump"></i>
+                    <span>Gasoline</span>
+                  </div>
+                  <div class="feature">
+                    <i class="fa-solid fa-recycle"></i>
+                    <span>28K mi</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="car">
+              <div class="img">
+                <div class="properties">
+                  <button class="fav">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <div class="status">
+                    <span class="new blue">Used</span>
+                  </div>
+                </div>
+                <a href="#"
+                  ><img src="images/latest-02.jpg" alt="offer-1" />
+                </a>
+              </div>
+              <div class="offer-body">
+                <div class="info">
+                  <span>2019</span>
+                  <h4>Mercedes Benz Convertible Coupe</h4>
+                  <span class="price">$25,800</span>
+                  <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="#"> New York, NY, USA</a>
+                  </div>
+                </div>
+                <div class="features">
+                  <div class="feature">
+                    <i class="fa-solid fa-gears"></i>
+                    <span>Automatic</span>
+                  </div>
+                  <div class="feature">
+                    <i class="fa-solid fa-gas-pump"></i>
+                    <span>Gasoline</span>
+                  </div>
+                  <div class="feature">
+                    <i class="fa-solid fa-recycle"></i>
+                    <span>28K mi</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="car">
+              <div class="img">
+                <div class="properties">
+                  <button class="fav">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <div class="status">
+                    <span class="new blue">New</span>
+                  </div>
+                </div>
+                <a href="#"
+                  ><img src="images/latest-03.jpg" alt="offer-1" />
+                </a>
+              </div>
+              <div class="offer-body">
+                <div class="info">
+                  <span>2019</span>
+                  <h4>Mercedes Benz Convertible Coupe</h4>
+                  <span class="price">$25,800</span>
+                  <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="#"> New York, NY, USA</a>
+                  </div>
+                </div>
+                <div class="features">
+                  <div class="feature">
+                    <i class="fa-solid fa-gears"></i>
+                    <span>Automatic</span>
+                  </div>
+                  <div class="feature">
+                    <i class="fa-solid fa-gas-pump"></i>
+                    <span>Gasoline</span>
+                  </div>
+                  <div class="feature">
+                    <i class="fa-solid fa-recycle"></i>
+                    <span>28K mi</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-icons">
+              <button class="latest-left">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button class="latest-right">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Latest -->
+      <!-- Start App -->
+      <div class="app">
+        <div class="container">
+          <div class="text">
+            <h1>Get the top-rated app!</h1>
+            <p>
+              Download Finder App and join the community of car enthusiasts.
+              Don't stop your car search when you leave your computer with our
+              Android and iOS app!
+            </p>
+            <div class="phone-app">
+              <a href="#"
+                ><i class="fa-brands fa-apple"></i> <span>APP Store</span></a
+              >
+              <a href="#"
+                ><i class="fa-brands fa-google-play"></i>
+                <span>Google Play</span></a
+              >
+            </div>
+          </div>
+          <div class="image">
+            <img src="images/mobile-app.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- End App -->
+      <!-- Start News -->
+      <div class="news">
+        <div class="container">
+          <div class="title">
+            <h1>Latest News</h1>
+            <a href="#">Go To blog <i class="fa-solid fa-right-long"></i></a>
+          </div>
+          <div class="prod">
+            <div class="car-pro">
+              <img src="images/05.jpg" alt="" class="car" />
+              <span>TIPS&ADVICE</span>
+              <p>5 Predictions Form The Past About The Future</p>
+              <div class="seller">
+                <img src="images/09-48x48.jpg" alt="" />
+                <div class="info">
+                  <h5 class="name">Guy Hawkins</h5>
+                  <div class="date">
+                    <a href="#"
+                      ><i class="fa-solid fa-calendar-days"></i> Nov 03</a
+                    >
+                    <a href="#"
+                      ><i class="fa-regular fa-comment"></i> No Comments</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="car-pro">
+              <img src="images/06-2.jpg" alt="" class="car" />
+              <span>TIPS&ADVICE</span>
+              <p>5 Predictions Form The Past About The Future</p>
+              <div class="seller">
+                <img src="images/10-1-48x48.jpg" alt="" />
+                <div class="info">
+                  <h5 class="name">Guy Hawkins</h5>
+                  <div class="date">
+                    <a href="#"
+                      ><i class="fa-solid fa-calendar-days"></i> Nov 03</a
+                    >
+                    <a href="#"
+                      ><i class="fa-regular fa-comment"></i> No Comments</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="car-pro">
+              <img src="images/04.jpeg" alt="" class="car" />
+              <span>TIPS&ADVICE</span>
+              <p>5 Predictions Form The Past About The Future</p>
+              <div class="seller">
+                <img src="images/10-1-48x48.jpg" alt="" />
+                <div class="info">
+                  <h5 class="name">Guy Hawkins</h5>
+                  <div class="date">
+                    <a href="#"
+                      ><i class="fa-solid fa-calendar-days"></i> Nov 03</a
+                    >
+                    <a href="#"
+                      ><i class="fa-regular fa-comment"></i> No Comments</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="car-pro">
+              <img src="images/05.jpg" alt="" class="car" />
+              <span>TIPS&ADVICE</span>
+              <p>5 Predictions Form The Past About The Future</p>
+              <div class="seller">
+                <img src="images/09-48x48.jpg" alt="" />
+                <div class="info">
+                  <h5 class="name">Guy Hawkins</h5>
+                  <div class="date">
+                    <a href="#"
+                      ><i class="fa-solid fa-calendar-days"></i> Nov 03</a
+                    >
+                    <a href="#"
+                      ><i class="fa-regular fa-comment"></i> No Comments</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="car-pro">
+              <img src="images/06-2.jpg" alt="" class="car" />
+              <span>TIPS&ADVICE</span>
+              <p>5 Predictions Form The Past About The Future</p>
+              <div class="seller">
+                <img src="images/08-48x48.jpg" alt="" />
+                <div class="info">
+                  <h5 class="name">Guy Hawkins</h5>
+                  <div class="date">
+                    <a href="#"
+                      ><i class="fa-solid fa-calendar-days"></i> Nov 03</a
+                    >
+                    <a href="#"
+                      ><i class="fa-regular fa-comment"></i> No Comments</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="car-pro">
+              <img src="images/04.jpeg" alt="" class="car" />
+              <span>TIPS&ADVICE</span>
+              <p>5 Predictions Form The Past About The Future</p>
+              <div class="seller">
+                <img src="images/09-48x48.jpg" alt="" />
+                <div class="info">
+                  <h5 class="name">Guy Hawkins</h5>
+                  <div class="date">
+                    <a href="#"
+                      ><i class="fa-solid fa-calendar-days"></i> Nov 03</a
+                    >
+                    <a href="#"
+                      ><i class="fa-regular fa-comment"></i> No Comments</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End News -->
+      <!-- Statrt Footer -->
+      <div class="footer">
+        <div class="container">
+          <div class="finder">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h2>Finder</h2>
+          </div>
+          <div class="row">
+            <div class="Subscribe">
+              <h2>Subscribe to our newsletter</h2>
+              <ul>
+                <li>Don’t miss any relevant offers!</li>
+                <form action="">
+                  <i class="fa-regular fa-envelope"></i>
+                  <input type="email" placeholder="Your Email" />
+                  <div class="bg">
+                    <i class="fa-regular fa-paper-plane plane"></i>
+                  </div>
+                </form>
+              </ul>
+            </div>
+            <div class="nav">
+              <h2>Buying & Selling</h2>
+              <ul>
+                <li>Find a Car</li>
+                <li>Sell Your Car</li>
+                <li>Car Dealers</li>
+                <li>Compare Cars</li>
+                <li>Online Car Appraisal</li>
+              </ul>
+            </div>
+            <div class="nav">
+              <h2>About</h2>
+              <ul>
+                <li>About Finder</li>
+                <li>Contact Us</li>
+                <li>FAQs & Support</li>
+                <li>Mobile App</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+            <div class="nav">
+              <h2>Profile</h2>
+              <ul>
+                <li>My Account</li>
+                <li>Wishlist</li>
+                <li>My Listings</li>
+                <li>Add Listing</li>
+              </ul>
+            </div>
+            <div class="communication">
+              <h2>Social</h2>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-mobile-screen-button"></i> 0598444900
+                </li>
+                <li>
+                  <i class="fa-regular fa-envelope"></i> bash90nova@gmail.com
+                </li>
+                <li class="Social">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-discord"></i></a>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="copy-right">
+            <span>© All rights reserved. Made by Finder</span>
+            <ul>
+              <li>Tersm Of Use</li>
+              <li>Privacy Pollcy</li>
+              <li>Accessibility Statement</li>
+              <li>Interest Baser Ads</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End Footer -->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
